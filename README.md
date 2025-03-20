@@ -6,7 +6,7 @@ def calculator():
     first_digits = 15
     second_digits = 10
     
-    operations = input("+, - ,*, /")
+    operation = input("+, - ,*, /")
 
     if operation == '+':
         print('{first_digits} + {second_digits}')
@@ -22,3 +22,4 @@ def calculator():
            print('{first_digits} / {second_digits}')
         else:
             print("ERROR")
+             
